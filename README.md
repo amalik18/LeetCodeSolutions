@@ -1,6 +1,5 @@
 # LeetCodeSolutions
-
-# Answers to the various LeetCode problems
+> Answers to the various LeetCode problems
 
 ## MaxConsecutiveOnes
 
@@ -46,4 +45,72 @@ Input: nums = [555,901,482,1771]
 Output: 1 
 Explanation: 
 Only 1771 contains an even number of digits.
+```
+
+## Squares of a Sorted Array
+Given an array of integers A sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.
+
+Example 1:
+```
+Input: [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
+```
+
+Example 2:
+```
+Input: [-7,-3,2,3,11]
+Output: [4,9,9,49,121]
+```
+
+## Two Sum
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+
+Example 1:
+```
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+```
+
+Example 2:
+```
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+```
+
+Example 3:
+```
+Input: nums = [3,3], target = 6
+Output: [0,1]
+```
+
+## Average Salary Excluding the Minimum and Maximum
+Example 1:
+```
+Input: salary = [4000,3000,1000,2000]
+Output: 2500.00000
+Explanation: Minimum salary and maximum salary are 1000 and 4000 respectively.
+Average salary excluding minimum and maximum salary is (2000+3000)/2= 2500
+```
+
+Example 2:
+```
+Input: salary = [1000,2000,3000]
+Output: 2000.00000
+Explanation: Minimum salary and maximum salary are 1000 and 3000 respectively.
+Average salary excluding minimum and maximum salary is (2000)/1= 2000
+```
+
+Example 3:
+```
+Input: salary = [6000,5000,4000,3000,2000,1000]
+Output: 3500.00000
+```
+
+Example 4:
+```
+Input: salary = [8000,9000,2000,3000,6000,1000]
+Output: 4750.00000
 ```
