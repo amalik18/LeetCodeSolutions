@@ -114,3 +114,65 @@ Example 4:
 Input: salary = [8000,9000,2000,3000,6000,1000]
 Output: 4750.00000
 ```
+
+## Valid Parenthesis
+
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+An input string is valid if:
+
+* Open brackets must be closed by the same type of brackets.
+* Open brackets must be closed in the correct order.
+
+Example 1:
+```text
+Input: s = "()"
+Output: true
+```
+
+Example 2:
+```text
+Input: s = "()[]{}"
+Output: true
+```
+
+Example 3:
+```text
+Input: s = "(]"
+Output: false
+```
+
+Example 4:
+```text
+Input: s = "([)]"
+Output: false
+```
+
+Example 5:
+```text
+Input: s = "{[]}"
+Output: true
+```
+
+## Invert Binary Tree
+Given the root of a binary tree, invert the tree, and return its root.
+
+Example 1:
+![Example 1](img.png)
+```text
+Input: root = [4,2,7,1,3,6,9]
+Output: [4,7,2,9,6,3,1]
+```
+
+Example 2:
+![Example 2](img_1.png)
+```text
+Input: root = [2,1,3]
+Output: [2,3,1]
+```
+
+Example 3:
+```text
+Input: root = []
+Output: []
+```
